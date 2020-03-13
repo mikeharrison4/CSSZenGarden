@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  padding-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("http://www.csszengarden.com/214/contours@2x.png"), url("http://www.csszengarden.com/214/huntington.jpg");
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+}
+
+header h1 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 1.75rem;
+  letter-spacing: 2px;
+}
+
+header h2 {
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+.summary,
+.preamble {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+
+.summary h3,
+.preamble h3 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.summary p,
+.preamble p {
+  margin: 15px 0;
+  line-height: 25px;
+}
+
+.explanation,
+.participation,
+.benefits,
+.requirements {
+  padding-top: 3em;
+}
+
+.explanation p,
+.explanation h3,
+.participation p,
+.participation h3,
+.benefits p,
+.benefits h3,
+.requirements p,
+.requirements h3 {
+  margin: 20px 10%;
+}
+
+.explanation h3,
+.participation h3,
+.benefits h3,
+.requirements h3 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.explanation p,
+.participation p,
+.benefits p,
+.requirements p {
+  line-height: 25px;
+  margin-bottom: 0;
+}
+
+.summary {
+  padding-top: 2em;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.main p {
+  line-height: 25px;
+}
+
+.participation,
+.benefits {
+  background-image: url("http://www.csszengarden.com/214/contours-opaque.png"), url("http://www.csszengarden.com/214/gridlines-opaque.png"), url("http://www.csszengarden.com/214/bamboo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(138, 188, 159, 0.5);
+}
+
+.design-archives {
+  position: absolute;
+  top: 142px;
+  background: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  padding: 20px 0;
+}
+
+.design-archives h3 {
+  display: none;
+}
+
+.design-archives nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.design-archives nav ul .previous {
+  margin-right: auto;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.design-archives nav ul .next {
+  margin-left: auto;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.design-archives nav ul .viewall {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+/*# sourceMappingURL=style.css.map */
